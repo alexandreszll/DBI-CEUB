@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-CEUB" id="8D7E5A52-A294-6313-97CD-97121E79172C" version="3.5">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-04-03 22:24:03 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8D7E5A52-A294-6313-97CD-97121E79172C</designId>
+</OSDM_Design>

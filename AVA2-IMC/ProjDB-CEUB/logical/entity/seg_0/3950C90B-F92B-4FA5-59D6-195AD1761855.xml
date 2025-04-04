@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3950C90B-F92B-4FA5-59D6-195AD1761855" name="Cliente">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-04-03 23:15:42 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="585167BE-3C3D-0DF5-A846-80E403C4E1D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NomeCliente" id="D6DB1418-1A27-C5F0-99A6-AFD58EB23A84">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-04-03 23:15:55 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="585167BE-3C3D-0DF5-A846-80E403C4E1D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="716B2D9C-ED1D-28DB-86F7-A8F1462F762B">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-04-03 23:17:05 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="585167BE-3C3D-0DF5-A846-80E403C4E1D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12438814-30DD-5500-EC3B-552A11C77277" name="Cliente PK">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-04-04 00:28:31 UTC</createdTime>
+<ownerDesignName>ProjDB-CEUB</ownerDesignName>
+<engineerTo>
+<item key="585167BE-3C3D-0DF5-A846-80E403C4E1D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>716B2D9C-ED1D-28DB-86F7-A8F1462F762B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
