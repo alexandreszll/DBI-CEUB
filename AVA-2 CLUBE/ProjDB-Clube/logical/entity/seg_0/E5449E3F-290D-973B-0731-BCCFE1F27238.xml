@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5449E3F-290D-973B-0731-BCCFE1F27238" name="Dependente">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:41:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="789C1FC9-CFE0-C0FA-BAE6-91D543349D95">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:41:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="C59125BC-99A4-4705-432B-444124D7AA9A">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:42:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataDeNascimento" id="9EA4A59B-0584-20B5-A70E-8166AB61502E">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:42:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="B797A826-FD68-D8D8-C561-B5DE813CDE15">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-16 00:00:16 UTC</createdTime>
+<generatorID>EF1AACF1-FB05-4EAB-1A6D-E84F6880DDD4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<referedAttribute>9D099924-2047-C3B6-3445-449429061683</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAssociado" id="61DFA126-2C37-F77F-4FAF-51ACD0A542DC">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-16 00:02:59 UTC</createdTime>
+<generatorID>EF1AACF1-FB05-4EAB-1A6D-E84F6880DDD4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<referedAttribute>2D4AA77F-49E3-0591-12E7-D3962EFC6665</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesco" id="0539980C-2ABC-2047-E8DF-1E254CBCF91E">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-16 00:03:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44EFFF25-900A-8069-19AB-B924D0C880DF" name="Dependente PK">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:41:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C59125BC-99A4-4705-432B-444124D7AA9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

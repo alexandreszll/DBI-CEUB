@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32E55B23-93B6-1D52-1202-D93FA24CF381" name="Historico Do Pagamento">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:48:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataDoPagamento" id="CFD95588-173D-2F39-B8E6-E1516ACBC021">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:48:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorPago" id="F323D378-F941-1D86-3BE6-911A47B75769">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:56:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="formaDePagamento" id="9C4ABF00-007B-75D9-4830-BD597476E562">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:57:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="A3F85A3D-A146-DEA3-6D4B-FB1BB707E0D4">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:57:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="0A0D60F4-2337-AADC-A5B3-DB5FE327B7BF">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-16 00:01:07 UTC</createdTime>
+<generatorID>5F33940B-78C1-3CE5-29DA-3FF4ECF19469</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<referedAttribute>4B9281EB-9689-0F88-32D2-59A581CF2A42</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDD45235-8DAA-D1C3-BCCD-034909AFDF8F" name="Historico Do Pagamento PK">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:57:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F323D378-F941-1D86-3BE6-911A47B75769</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFA80EFB-EF06-3627-7035-2D4A6A46AAE2" name="Associado">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:36:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="554A7A74-7AF0-B687-3E33-498AED32646F">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:37:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9D099924-2047-C3B6-3445-449429061683">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:38:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataDeNascimento" id="C51B386C-4773-D6A5-34B2-9B94DDAF968E">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:38:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="3DCDBB01-0883-A1E0-22AC-9D59AEF56738">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:38:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="4F40FC32-ED77-E101-4268-3C15E4D99C2D">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:38:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="1EA63FEB-E61B-C8F5-56A5-F26869BDB80B">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:39:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataDeCadastro" id="AAD24B92-4903-A997-885F-36C60291027F">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:39:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAssociado" id="2D4AA77F-49E3-0591-12E7-D3962EFC6665">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-16 00:02:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2A32E93-182B-1E00-C94E-4B203141CF1F" name="Associado PK">
+<createdBy>alexandre.sa</createdBy>
+<createdTime>2025-05-15 23:37:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="224BFEE2-F6EA-B9B2-4241-11247CC76DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D099924-2047-C3B6-3445-449429061683</attributeRef>
+<attributeRef>2D4AA77F-49E3-0591-12E7-D3962EFC6665</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
